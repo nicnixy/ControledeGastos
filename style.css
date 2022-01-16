@@ -1,0 +1,145 @@
+body {
+  background-color: #8B4513;
+  font-family: arial;
+}
+
+main {
+  width: 900px;
+  margin-top: 50px;
+  margin-left: 30px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50,-50);
+  display: flex;
+  justify-content: space-between;
+}
+
+main section {
+    background-color: #FAEBD7;
+    border-radius: 11px;
+    padding: 30px;
+}
+
+/* Parte 1 */
+
+.insertInfoSec {
+  width: 500px;
+}
+
+.insertInfoSec input {
+  display: block;
+  width: 100%;
+  border: none;
+  outline: none;
+  border-radius: 10px;
+  height: 30px;
+  padding-left: 10px;
+  box-sizing: border-box;
+}
+
+.insertInfoSec button {
+  background-color: #CD5C5C;
+  display: block;
+  width: 100%;
+  border: none;
+  color: white;
+  font-weight: bold;
+  padding: 8px;
+  border-radius: 10px;
+  font-size: 16px;
+}
+
+.insertInfoSec h1 {
+  font-size: 25px;
+  font-weight: bold;
+    color: #A52A2A;
+}
+
+.formEntOrc {}
+.formEntOrc h2 {
+  font-weight: bold;
+  font-size: 15px;
+  border-bottom: 1px solid #DAA06D;
+}
+.formEntOrc input {}
+.formEntOrc button {}
+
+.formEntDes {}
+.formEntDes h2 {
+  font-weight: bold;
+  font-size: 15px;
+  text-transform: uppercase;
+}
+.formEntDes input {}
+.formEntDes button {}
+
+.contDes {}
+.contDes_cabecalho {
+  display: flex;
+  margin: 20px;
+}
+
+.contDes_cabecalho .desTit {
+  margin-right: 140px;
+}
+
+.contDes_cabecalho p {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.contDes_lista {
+  align-items: center;
+}
+.contDes_lista li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #C1E1C1;
+  color: #478778;
+  font-weight: bold;
+  border-radius: 10px;
+  padding: 30px;
+}
+.contDes_lista li h3 {}
+.contDes_lista li p {}
+.contDes_lista li img {}
+
+/* Parte 2 */
+
+.secImpresResult {
+  width: 210px;
+}
+
+.secImpresResult div {
+  text-align: center;
+  margin-bottom: 50px;
+}
+.secImpresResult div h3 {
+  font-size: 25px;
+  font-weight: bold;
+}
+.secImpresResult div p {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.secImpresResult_orcamento {}
+.secImpresResult_orcamento h3 {}
+.secImpresResult_orcamento p {
+  color: #228B22;
+}
+
+.secImpresResult_despesa {}
+.secImpresResult_despesa h3 {}
+.secImpresResult_despesa p {
+  color: #DC143C;
+}
+
+.secImpresResult_valor {}
+.secImpresResult_valor h3 {}
+.secImpresResult_valor p {
+  color: #48D1CC;
+}
+
+button:hover{background-color: #B22222}

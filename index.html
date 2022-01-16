@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title> Controle de Gastos </title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <main>
+    <section class="insertInfoSec">
+      <h1> Controle de Gastos </h1>
+      
+      <div class="formEntOrc">
+        <h2> Orçamento Total </h2>
+        <input type="number">
+        
+        <br><br>
+        
+        <button> Calcuar </button>
+      </div>
+      
+      <div class="formEntDes">
+        <h2> Despesa: nome </h2>
+        <input type="text" class="formEntDes_nome">
+        
+        <h2> Despesa: valor </h2>
+        <input type="number" class="formEntDes_valor">
+        
+        <br><br>
+        
+        <button> Adicionar Despesa </button>
+      </div>
+      
+      <div class="contDes">
+        <div class="contDes_cabecalho">
+          <p class="desTit"> Despesa: título </p>
+          <p> Despesa: valor </p>
+        </div>
+        <ul class="contDes_lista">
+        </ul>
+      </div>
+    </section>
+    
+    <section class="secImpresResult">
+      <div class="secImpresResult_orcamento">
+        <h3> Orçamento </h3>
+        <p> + R$ 0,00 </p>
+      </div>
+      
+      <div class="secImpresResult_despesa">
+        <h3> Despesa </h3>
+        <p> - R$ 0,00 </p>
+      </div>
+      
+      <div class="secImpresResult_valor">
+        <h3> Saldo </h3>
+        <p> R$ 0,00 </p>
+      </div>
+    </section>
+  </main>
+  <script src="main.js"></script>
+</body>
+</html>
